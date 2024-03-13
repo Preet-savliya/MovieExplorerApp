@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* navigation bar or header start here */
+
+
+.navbar {
+  background-color: rgb(0, 0, 0);
+}
+
+
+.container-fluid .navbar-brand img{
+  width: 300px;
+}
+
+.offcanvas-title {
+  font-weight: 500;
+  color: red;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.navbar .navbar-toggler {
+  border: 2px solid white;
+  font-size: 1.25rem;
+  background-color: white;
+}
+
+.navbar .offcanvas{
+  background-color: black;
+}
+
+.navbar .offcanvas-header .btn-close{
+  background-color: white;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+  box-shadow: none;
+  outline: white;
+}
+
+.offcanvas-body .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-weight: 500;
+  position: relative;
+  font-size: 22px;
+}
+/* navigation bar end here */
+
+/* header section start here */
+
+.header img{
+  width: 165px;
+  height: 220px;
+}
+
+.secondheader {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.secondheader .search .header ,
+.secondheader .catoegory .header{
+  background-color: rgb(83, 83, 83);
+  padding: 20px;
+  height: 70px;
+  width: 400px;
+  flex-wrap: wrap;
+}
+
+.movies .header {
+  background-color: rgb(83, 83, 83);
+  padding: 20px;
+  height: 70px;
+  flex-wrap: wrap;
+}
+
+.kesri .header{
+  background-color: rgb(83, 83, 83);
+  padding: 20px;
+  min-height: 130px;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.secondheader .search .header h1,
+.secondheader .catoegory .header h1,
+.movies .header h1,
+.kesri .header h1{
+  font-size: 20px;
+  color: white;
+}
+
+.kesri .header .blue{
+  background-color: rgb(52, 170, 255);
+  color: white;
+  text-decoration: none;
+  padding:  5px 24px;
+}
+
+.kesri .header .white{
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  color: rgb(83, 83, 83);
+  padding:  5px 24px;
+}
+
+.kesri .header .white:hover{
+  background-color: black;
+  color: white;
+}
+.secondheader .search form input {
+  padding: 10px;
+  width: 400px;
+}
+
+.secondheader .search form input:focus{
+  outline: none;
+}
+
+
+.secondheader .catoegory select{
+  padding: 10px;
+  width: 400px;
+}
+
+.movies #box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movies #box .card img{
+  height: 450px;
+}
+
+.movies #box .card img:hover{
+  transform: scale(0.9);
+  transition: 0.4s;
+}
+
+.movies #box .card .card-body .card-text{
+  text-align: justify;
+}
+
+.container .para{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.container .para1 p {
+  font-size: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.container .para1 p a{
+  text-decoration: none;
+}
+
+.container .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .image img{
+  height: 550px;
+}
+
+.container .para span{
+  color: rgb(0, 170, 255);
+}
+
+.container .para .red{
+  color: red;
+}
+
+.container .para2{
+  font-weight: light;
+  text-align: justify;
+  color: white;
+}
+
+.container .para2 .light{
+  font-size: 14px;
+}
+
+.screenshot .shot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.screenshot .shot img{
+  width: 400px;
+}
+
+.footer .reserved p{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.footer .reserved p a{
+  text-decoration: none;
+}
+
+.footer .reserved p a:hover{
+  color: white;
+}
