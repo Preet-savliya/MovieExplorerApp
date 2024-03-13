@@ -55,7 +55,7 @@ const card = [
     },
     {
         id: 9,
-        image: 'images/shyam.png',
+        image: 'images/Shyam.png',
         title: 'Shyam Singha Roy (2023) WEB-DL Hindi (ORG DD5.1) 1080p 720p & 480p [x264/HEVC] | Full Movie',
         link:'',
     },
